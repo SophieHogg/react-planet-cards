@@ -1,0 +1,6 @@
+@use "./styling/palette";
+.body {
+    min-width: 100vw;
+    min-height: 100%;
+    background-color: palette.$background-colour;
+}

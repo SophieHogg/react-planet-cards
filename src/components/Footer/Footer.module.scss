@@ -1,0 +1,11 @@
+@use "./../../styling/palette";
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+.Footer {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: palette.$footer-colour;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+}

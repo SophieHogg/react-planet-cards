@@ -1,0 +1,25 @@
+@use "./../../styling/palette";
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+.Card {
+    background-color: palette.$card-colour;
+    border-radius: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    &__header {
+        font-size: 30px;
+        font-family: "Work Sans", sans-serif;
+    }
+    &__image {
+        width: 300px;
+        height: 300px;
+        border-radius: 30%;
+    }
+}
+p {
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+}
